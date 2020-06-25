@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "azure-pipelines-har-viewer",
-    "publisher": "MaciejMaciejewski",
-    "version": "1.0.0",
+    "publisher": "PawelLeszczewicz",
+    "version": "0.1.0",
     "author": "Pawel Leszczewicz",
     "name": "HAR Viewer",
     "description": "",
@@ -11,7 +11,7 @@
     "icons": {
         "default": "icon.png"
     },
-    "tags": [],
+    "tags": ["Preview"],
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -19,7 +19,7 @@
     ],
     "repository": {
         "type": "git",
-        "uri": "https://github.com/maciejmaciejewski/azure-pipelines-deno"
+        "uri": "https://github.com/pawelleszczewicz/azure-pipeline-har-viewer"
     },
     "content": {
         "details": {

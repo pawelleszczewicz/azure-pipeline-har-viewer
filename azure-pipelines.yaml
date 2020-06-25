@@ -24,7 +24,7 @@ steps:
   inputs:
     rootFolder: .
     patternManifest: 'azure-devops-extension.json'
-    publisherId: MaciejMaciejewski
+    publisherId: PawelLeszczewicz
     extensionId: azure-pipelines-har-viewer
     extensionTag: dev
     extensionName: 'HAR Viewer Dev'
@@ -37,10 +37,10 @@ steps:
 - task: PublishAzureDevOpsExtension@2
   displayName: 'TFX: Publish Extension Dev'
   inputs:
-    connectedServiceName: Marketplace
+    connectedServiceName: market-place-pawel
     rootFolder: .
     patternManifest: 'azure-devops-extension.json'
-    publisherId: MaciejMaciejewski
+    publisherId: PawelLeszczewicz
     extensionId: azure-pipelines-har-viewer
     extensionTag: dev
     extensionName: 'HAR Viewer Dev'
@@ -52,7 +52,7 @@ steps:
 - task: ShareAzureDevOpsExtension@2
   displayName: 'TFX: Share Extension'
   inputs:
-    connectedServiceName: Marketplace
+    connectedServiceName: market-place-pawel
     method: vsix
     vsixFile: '**.vsix'
     accounts: 'maciejmaciejewski-dev'
