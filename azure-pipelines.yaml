@@ -23,6 +23,7 @@ steps:
   displayName: 'TFX: Package Extension'
   inputs:
     rootFolder: .
+    patternManifest: 'azure-devops-extension.json'
     publisherId: PawelLeszczewicz
     extensionId: azure-pipelines-har-viewer
     extensionName: 'HAR Viewer'
