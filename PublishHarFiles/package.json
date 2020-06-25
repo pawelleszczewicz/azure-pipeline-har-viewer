@@ -1,0 +1,16 @@
+{
+  "name": "publish-har-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel Leszczewicz",
+  "license": "ISC",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.5",
+    "fs-extra": "^9.0.0",
+    "dashify": "^2.0.0"
+  }
+}
